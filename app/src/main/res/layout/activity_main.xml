@@ -1,0 +1,43 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/itu"
+        android:padding="150dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="20dp"
+        android:text="Kyrgyz State Technical University named after I.Razzakov"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+
+        />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/image"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginBottom="17dp"
+        android:fontFamily="sans-serif-black"
+        android:padding="20dp"
+        android:text="Director: Karimov B.T Fax: +996-312-54-51-62 E-mail: rector@kstu.kg Website: www.kstu.kg"
+
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+</RelativeLayout>
